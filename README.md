@@ -1,74 +1,74 @@
-# Fica o essencial
+# Fica o essencial (Keep the Good Part)
 
-> Guia gratuito e passo a passo para transformar vídeos do YouTube, de qualquer tema, em relatórios PDF verificáveis, com um prompt que funciona no Claude ou no Gemini.
+> A free, step-by-step guide for turning YouTube videos, on any topic, into verifiable PDF reports with a prompt that works in Claude or Gemini.
 
-**Site:** https://rcrdo4750.github.io/fica-o-essencial/
+**Website:** https://rcrdo4750.github.io/fica-o-essencial/
 
 ---
 
-## O que é
+## What it is
 
-Uma página única, em português de Portugal e em inglês, que ensina a usar um prompt para resumir vídeos longos.
-Escolhes o teu assistente de IA e o dispositivo, copias o prompt e segues os passos até teres o primeiro relatório em PDF.
+A single page, in European Portuguese and English, that teaches you how to use a prompt to summarize long videos.
+You pick your AI assistant and your device, copy the prompt, and follow the steps until you have your first PDF report.
 
-Funciona com vídeos sobre qualquer assunto: finanças, culinária, bricolage, saúde, estudo, tecnologia.
+It works with videos on any subject: finance, cooking, DIY, health, study, technology.
 
-## Para quem é
+## Who it is for
 
-- Pessoas sem conhecimentos técnicos que querem aproveitar melhor vídeos longos.
-- Quem prefere ler um relatório organizado a ver uma hora de vídeo.
-- Quem quer poder confirmar o que o resumo afirma, em vez de confiar às cegas.
+- People without technical knowledge who want to get more out of long videos.
+- Anyone who would rather read an organized report than watch an hour of video.
+- Anyone who wants to be able to check what a summary claims, instead of trusting it blindly.
 
-## O que o guia inclui
+## What the guide includes
 
-| Secção | Para que serve |
+| Section | What it is for |
 |---|---|
-| Exemplo | Um vídeo e um relatório fictícios, para veres o resultado antes de começar |
-| Passos | Percursos adaptados à IA e ao dispositivo que escolheres |
-| Prompt | O prompt completo, em português e em inglês, com botão de copiar |
-| Guardar o PDF | Como guardar o primeiro relatório |
-| Transcrição e MP4 | Alternativas quando o assistente não consegue aceder ao vídeo |
-| Problemas | Ajuda para os erros mais comuns |
-| Partilhar | Botão para enviar o guia a outra pessoa |
+| Example | A fictional video and report, so you can see the result before you start |
+| Steps | Paths tailored to the AI assistant and device you choose |
+| Prompt | The full prompt, in Portuguese and English, with a copy button |
+| Saving the PDF | How to save your first report |
+| Transcript and MP4 | Alternatives for when the assistant cannot access the video |
+| Problems | Help with the most common errors |
+| Share | A button to send the guide to someone else |
 
-## Como usar
+## How to use it
 
-1. Abre o [site](https://rcrdo4750.github.io/fica-o-essencial/).
-2. Escolhe a língua, o assistente de IA e o dispositivo.
-3. Copia o prompt com o botão da barra inferior.
-4. Cola o prompt no assistente, junto com o endereço do vídeo.
-5. Guarda o relatório em PDF.
+1. Open the [website](https://rcrdo4750.github.io/fica-o-essencial/).
+2. Choose the language, the AI assistant and the device.
+3. Copy the prompt with the button in the bottom bar.
+4. Paste the prompt into the assistant, together with the video link.
+5. Save the report as a PDF.
 
-## Privacidade
+## Privacy
 
-- Não há análises, cookies de rastreio nem pedidos a servidores de terceiros.
-- A fonte está embutida na página, por isso não é descarregada de nenhum serviço externo.
-- O navegador pode guardar algumas preferências locais (por exemplo, a língua). Ficam no teu dispositivo.
-- Os vídeos e os relatórios nunca passam por este site: são tratados no assistente de IA que escolheres.
+- No analytics, no tracking cookies and no requests to third-party servers.
+- The font is embedded in the page, so it is not downloaded from any external service.
+- Your browser may store a few local preferences (for example, the language). They stay on your device.
+- Your videos and reports never pass through this site. They are handled by the AI assistant you choose.
 
-## Como este repositório funciona
+## How this repository works
 
-Este repositório só contém o resultado final. É publicado automaticamente e **não deve ser editado à mão**.
+This repository only contains the finished result. It is published automatically and **should not be edited by hand**.
 
-1. O guia é escrito e mantido noutro local, onde é gerado como um único ficheiro HTML.
-2. Quando esse ficheiro muda, é copiado para aqui como `index.html`.
-3. O workflow do GitHub Pages publica o site em poucos segundos.
+1. The guide is written and maintained elsewhere, where it is built into a single HTML file.
+2. When that file changes, it is copied here as `index.html`.
+3. The GitHub Pages workflow publishes the site within seconds.
 
-Alterações feitas diretamente aqui serão substituídas na próxima atualização.
+Changes made directly here will be overwritten by the next update.
 
-## Estrutura
+## Structure
 
 ```text
 .
-├── index.html                 # O guia completo, num único ficheiro
-├── README.md                  # Este ficheiro
+├── index.html                 # The complete guide, in a single file
+├── README.md                  # This file
 └── .github/
     └── workflows/
-        └── pages.yml          # Publica o site no GitHub Pages
+        └── pages.yml          # Publishes the site to GitHub Pages
 ```
 
-## Créditos e licenças
+## Credits and licenses
 
-- Tipo de letra **Bricolage Grotesque**, de The Bricolage Grotesque Project Authors, sob a [SIL Open Font License 1.1](https://scripts.sil.org/OFL). O aviso completo está dentro do `index.html`.
-- O guia refere ferramentas de terceiros (por exemplo, geradores de transcrições). Cada uma tem os seus próprios termos de utilização.
-- Este conteúdo é fornecido tal como está, sem garantias. Confirma sempre os factos importantes na fonte original.
+- Typeface **Bricolage Grotesque**, by The Bricolage Grotesque Project Authors, under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL). The full notice is inside `index.html`.
+- The guide mentions third-party tools (for example, transcript generators). Each one has its own terms of use.
+- This content is provided as is, without warranties. Always check important facts against the original source.
